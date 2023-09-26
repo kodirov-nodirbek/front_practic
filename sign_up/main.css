@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rasm{
+    background-image: url(./mountain.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+
+}
+.add{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+.rasm form{
+    background-color: #063482;
+    width: 30%;
+    margin: 0 auto;
+    /* height: 500px; */
+    padding: 30px;
+    border-radius: 5px;
+}
+.rasm form h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    margin: 20px;
+}
+.rasm form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    /* border-radius: 50px; */
+    /* border:1px solid ; */
+}
+.rasm form input:last-child{
+    width: 150px ;
+    background-color:#0f4db7 ;
+    text-align: center;
+   text-transform: uppercase;
+   color: aliceblue;
+   
+}
+.rasm form p{
+    text-align: center;
+}
+@media(max-width:980px){
+    .rasm form{
+        width: 60%;
+    }
+}
+@media(max-width:780px){
+    .rasm form{
+        width: 60%;
+    }
+}
+@media(max-width:580px){
+    .rasm form{
+        width: 80%;
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "scuba_diving_assignment",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "scuba_diving_assignment"
+	}
+}
